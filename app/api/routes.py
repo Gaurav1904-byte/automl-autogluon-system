@@ -7,6 +7,10 @@ from app.services.predictor import predict_single
 
 router = APIRouter()
 
+@app.get("/")
+def home():
+    return {"message": "API running 🚀"}
+
 
 @router.post("/upload")
 async def upload(file: UploadFile):
