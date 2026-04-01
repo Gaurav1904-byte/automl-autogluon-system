@@ -1,10 +1,13 @@
+# 🚀 AutoML AutoGluon System
 
-# AutoML AutoGluon System
+## Features
+- Automated ML using AutoGluon
+- FastAPI backend
+- Model training & prediction API
+- Logging & error handling
+- Docker support
 
-## Run Project
-
+## Run Locally
+```bash
+pip install -r requirements.txt
 uvicorn main:app --reload
-
-## API Docs
-
-http://127.0.0.1:8000/docs
