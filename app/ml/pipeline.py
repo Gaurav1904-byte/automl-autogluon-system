@@ -26,8 +26,8 @@ def run_pipeline(target: str):
                 path=MODEL_DIR
             ).fit(
                 train_data,
-                time_limit=120,
-                presets="best_quality"
+                time_limit=60,
+                presets="medium_quality"
             )
 
             performance = predictor.evaluate(test_data)
