@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# logs
+logs/
+
+# artifacts (models, data)
+artifacts/
+
+# MLflow
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
+

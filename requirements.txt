@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+numpy
+autogluon
+mlflow
+python-multipart
+joblib
